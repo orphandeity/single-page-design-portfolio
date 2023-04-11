@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --radius-sm: 0.5rem;
+  --radius-lg: 999999px;
+  --color-galactic-blue: #755cde;
+  --color-summer-yellow: #f6a560;
+  --color-pink: #f39e9e;
+  --color-light-red: #eb7565;
+  --color-cyan: #61c4b7;
+  --color-dark-purple: #552049;
+  --color-black: #030303;
+  --color-gray: #7a746e;
+  --color-white: #fff7f0;
+}
+
+html,
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+.heading-lg {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 70px;
+}
+
+.heading-md {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 51px;
+}
+
+.heading-sm {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+body p {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 28px;
+}
