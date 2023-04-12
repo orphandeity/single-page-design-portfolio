@@ -1,0 +1,32 @@
+.controls {
+  border: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.controls > button {
+  height: 4rem;
+  width: 4rem;
+}
+
+.container {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.slide {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  transition-timing-function: ease-in-out;
+  transition-duration: 300ms;
+}
+
+.slide li img {
+  border-radius: var(--radius-md);
+  height: 11.25rem;
+  aspect-ratio: 16 9;
+}
