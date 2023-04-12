@@ -47,7 +47,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   .controls > button {
     transition: background-color 200ms ease-in-out;
   }

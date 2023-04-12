@@ -261,6 +261,15 @@ footer {
     padding: 1rem 3.5rem;
   }
 
+  button:hover {
+    background-color: var(--color-summer-yellow);
+  }
+
+  header > button:hover,
+  footer > button:hover {
+    background-color: var(--color-galactic-blue);
+  }
+
   .logo {
     height: 4rem;
   }
@@ -347,15 +356,6 @@ footer {
     align-items: center;
     gap: 1.5rem;
     margin: 4.125rem 0 5rem;
-  }
-
-  button:hover {
-    background-color: var(--color-summer-yellow);
-  }
-
-  header > button:hover,
-  footer > button:hover {
-    background-color: var(--color-galactic-blue);
   }
 
   header,
