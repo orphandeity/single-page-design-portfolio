@@ -13,7 +13,7 @@ function App() {
       <main>
         <section>
           <div className="hero">
-            <h1 className="heading-lg">Design solutions made easy</h1>
+            <h1>Design solutions made easy</h1>
             <p>
               With over ten years of experience in various design disciplines,
               I&apos;m your one-stop shop for your design needs.
@@ -72,12 +72,14 @@ function App() {
         </section>
 
         <section className="cta">
-          <h2>Book a call with me</h2>
-          <p>
-            I&apos;d love to have a chat to see how I can help you. The best
-            first step is for us to discuss your project during a free
-            consultation. Then we can move forward from there.
-          </p>
+          <div>
+            <h2>Book a call with me</h2>
+            <p>
+              I&apos;d love to have a chat to see how I can help you. The best
+              first step is for us to discuss your project during a free
+              consultation. Then we can move forward from there.
+            </p>
+          </div>
           <button>Free Consultation</button>
         </section>
       </main>

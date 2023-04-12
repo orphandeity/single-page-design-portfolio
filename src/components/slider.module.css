@@ -23,8 +23,8 @@
   display: flex;
   justify-content: center;
   gap: 1rem;
-  transition-timing-function: ease-in-out;
-  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-duration: 500ms;
 }
 
 .slide li img {
@@ -44,5 +44,15 @@
 
   .slide li img {
     height: 22.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .controls > button {
+    transition: background-color 200ms ease-in-out;
+  }
+
+  .controls > button:hover {
+    background-color: var(--color-galactic-blue);
   }
 }
