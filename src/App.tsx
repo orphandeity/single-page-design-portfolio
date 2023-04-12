@@ -52,7 +52,7 @@ function App() {
           <img src={profileImage} alt="" className="profile-image" />
 
           <div>
-            <h2 className="heading-md">
+            <h2>
               I&apos;m Amy, and I&apos;d love to work on your next project
             </h2>
 
@@ -67,19 +67,17 @@ function App() {
         </section>
 
         <section className="work">
-          <h3 className="heading-sm">My Work</h3>
+          <h3>My Work</h3>
           <Slider />
         </section>
 
         <section className="cta">
-          <div>
-            <h2 className="heading-md">Book a call with me</h2>
-            <p>
-              I&apos;d love to have a chat to see how I can help you. The best
-              first step is for us to discuss your project during a free
-              consultation. Then we can move forward from there.
-            </p>
-          </div>
+          <h2>Book a call with me</h2>
+          <p>
+            I&apos;d love to have a chat to see how I can help you. The best
+            first step is for us to discuss your project during a free
+            consultation. Then we can move forward from there.
+          </p>
           <button>Free Consultation</button>
         </section>
       </main>

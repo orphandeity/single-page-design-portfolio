@@ -9,6 +9,8 @@
 .controls > button {
   height: 4rem;
   width: 4rem;
+  padding: 0;
+  cursor: pointer;
 }
 
 .container {
@@ -29,4 +31,18 @@
   border-radius: var(--radius-md);
   height: 11.25rem;
   aspect-ratio: 16 9;
+}
+
+@media (min-width: 768px) {
+  .controls {
+    margin-top: 3.5rem;
+  }
+
+  .slide {
+    gap: 1.875rem;
+  }
+
+  .slide li img {
+    height: 22.5rem;
+  }
 }

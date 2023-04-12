@@ -33,8 +33,20 @@ body {
   line-height: 70px;
 } */
 
-.heading-lg {
+h1 {
   font-size: 2.25rem;
+  font-weight: bold;
+  line-height: auto;
+}
+
+h2 {
+  font-size: 1.625rem;
+  font-weight: bold;
+  line-height: auto;
+}
+
+h3 {
+  font-size: 1.5rem;
   font-weight: bold;
   line-height: auto;
 }
@@ -55,19 +67,6 @@ body {
   font-size: 2rem;
   font-weight: bold;
   line-height: 40px;
-} */
-
-.heading-sm {
-  font-size: 1.5rem;
-  font-weight: bold;
-  line-height: auto;
-}
-
-/* body p {
-  font-size: 1.125rem;
-  font-weight: 500;
-  line-height: 28px;
-  color: var(--color-gray);
 } */
 
 /* general styles */
@@ -139,7 +138,6 @@ footer {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* grid-template-rows: repeat(6, 1fr); */
   gap: 1.5rem;
   color: var(--color-white);
 }
@@ -251,4 +249,99 @@ footer {
 
 .cta button {
   background-color: var(--color-light-red);
+}
+
+@media (min-width: 768px) {
+  main {
+    gap: 7.5rem;
+  }
+
+  h1 {
+    font-size: 2.75rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  body p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--color-gray);
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 1rem 3.5rem;
+  }
+
+  .logo {
+    height: 4rem;
+  }
+
+  .container {
+    margin: 2rem 2.5rem;
+  }
+
+  .hero {
+    margin: 4rem 2rem;
+    gap: 1.75rem;
+  }
+
+  .hero > p {
+    padding: 0 2rem;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .grid-container > :nth-child(2) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+
+  .grid-container > :nth-child(3) {
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+
+  .grid-container > :nth-child(4) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .grid-container > :nth-child(6) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .bio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+
+  .bio > div {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .profile-image {
+    height: 364px;
+    width: 364px;
+    transform: translateX(-20%);
+  }
+
+  .work {
+    gap: 3.5rem;
+  }
+
+  .cta {
+    padding: 3.5rem 4.6875rem 4rem;
+    gap: 1.625rem;
+    margin-bottom: 3.5rem;
+  }
 }
