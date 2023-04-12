@@ -1,12 +1,10 @@
-import logo from "./assets/logo.svg";
-import profileImage from "./assets/image-amy.webp";
 import Slider from "./components/Slider";
 
 function App() {
   return (
     <div className="container">
       <header>
-        <img src={logo} alt="" className="logo" />
+        <img src={"./logo.svg"} alt="" className="logo" />
         <button>Free Consultation</button>
       </header>
 
@@ -49,7 +47,7 @@ function App() {
         </section>
 
         <section className="bio">
-          <img src={profileImage} alt="" className="profile-image" />
+          <img src={"./image-amy.webp"} alt="" className="profile-image" />
 
           <div>
             <h2>
@@ -84,7 +82,7 @@ function App() {
         </section>
       </main>
       <footer>
-        <img src={logo} alt="" className="logo" />
+        <img src={"./logo.svg"} alt="" className="logo" />
         <button>Free Consultation</button>
       </footer>
     </div>
